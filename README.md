@@ -30,6 +30,10 @@ web applications like Plex.
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Hass.io add-on.
 
+**NOTE:** Before you install this add-on you need to install the
+[Cast.bundle][cast-bundle] Plug-in on your Plex server, to do that check the
+documentation [here.][cast-bundle-wiki]
+
 1. [Add our Hass.io add-ons repository][repository] to your Hass.io instance.
 1. Install the "Phlex" add-on.
 1. Start the "Phlex" add-on
@@ -220,6 +224,8 @@ SOFTWARE.
 [bountysource]: https://www.bountysource.com/teams/hassio-addons/issues
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/ludeeus
+[cast-bundle]: https://github.com/d8ahazard/Cast.bundle
+[cast-bundle-wiki]: https://github.com/d8ahazard/Phlex/wiki/Install-Cast-Plugin
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-phlex.svg
 [commits]: https://github.com/hassio-addons/addon-phlex/commits/master
 [contributors]: https://github.com/hassio-addons/addon-phlex/graphs/contributors
