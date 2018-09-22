@@ -20,8 +20,8 @@ A super-sexy voice interface for Plex.
 
 ## About
 
-The purpose of Phlex is to provide a natural language interface for
-Home Theater applications - effectively bridging the current gap between
+The purpose of [Phlex][phlex-wiki] is to provide a natural language interface
+for Home Theater applications - effectively bridging the current gap between
 commercial AI Solutions like Google Home/Alexa and personal
 web applications like Plex.
 
@@ -240,6 +240,7 @@ SOFTWARE.
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-phlex.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
 [microbadger]: https://microbadger.com/images/hassioaddons/phlex
+[phlex-wiki]: https://github.com/d8ahazard/Phlex/wiki
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/phlex.svg
 [reddit]: https://reddit.com/r/homeassistant
