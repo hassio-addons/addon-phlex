@@ -22,8 +22,8 @@ A super-sexy voice interface for Plex.
 
 The purpose of [Phlex][phlex-wiki] is to provide a natural language interface
 for Home Theater applications - effectively bridging the current gap between
-commercial AI Solutions like Google Home/Alexa and personal
-web applications like Plex.
+commercial AI Solutions like Google Home and personal web applications like
+Plex.
 
 ## Installation
 
@@ -45,7 +45,7 @@ documentation [here.][cast-bundle-wiki]
 **NOTE**: Starting the add-on might take a couple of minutes (especially the
 first time starting the add-on).
 
-**NOTE**: Phlex supports controlling it with voice (Google Home / Alexa),
+**NOTE**: Phlex supports controlling it with voice (Google Home),
 if you want to use that you will need to expose this add-on to the internet
 since the process of doing so vary from setup to setup,
 that part is out of the scope for the documentation of this add-on.
