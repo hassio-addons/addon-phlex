@@ -234,7 +234,7 @@ SOFTWARE.
 [discord]: https://discord.me/hassioaddons
 [dockerhub]: https://hub.docker.com/r/hassioaddons/phlex
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/
+[forum]: https://community.home-assistant.io/t/community-hass-io-add-ons-phlex/70378
 [ludeeus]: https://github.com/ludeeus
 [gitlabci-shield]: https://gitlab.com/hassio-addons/addon-phlex/badges/master/pipeline.svg
 [gitlabci]: https://gitlab.com/hassio-addons/addon-phlex/pipelines
