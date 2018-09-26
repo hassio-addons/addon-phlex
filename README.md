@@ -14,7 +14,7 @@
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
-A super-sexy voice interface for Plex.
+A super-sexy text and voice interface for Plex.
 
 ![Screenshot][screenshot]
 
@@ -31,8 +31,8 @@ The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Hass.io add-on.
 
 **NOTE:** Before you install this add-on you need to install the
-[Cast.bundle][cast-bundle] Plug-in on your Plex server, to do that check the
-documentation [here.][cast-bundle-wiki]
+[Cast.bundle][cast-bundle] Plug-in on your Plex server, to get started with
+that have a look at their documentation [here.][cast-bundle-wiki]
 
 1. [Add our Hass.io add-ons repository][repository] to your Hass.io instance.
 1. Install the "Phlex" add-on.

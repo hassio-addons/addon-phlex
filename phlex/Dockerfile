@@ -49,12 +49,12 @@ ARG BUILD_VERSION
 # Labels
 LABEL \
     io.hass.name="Phlex" \
-    io.hass.description="A super-sexy voice interface for Plex" \
+    io.hass.description="A super-sexy text and voice interface for Plex" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
     maintainer="Joakim Sørensen @ludeeus <ludeeus@gmail.com>" \
-    org.label-schema.description="A super-sexy voice interface for Plex" \
+    org.label-schema.description="A super-sexy text and voice interface for Plex" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="Phlex" \
     org.label-schema.schema-version="1.0" \
