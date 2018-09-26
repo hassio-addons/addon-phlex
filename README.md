@@ -39,7 +39,7 @@ that have a look at their documentation [here.][cast-bundle-wiki]
 1. Start the "Phlex" add-on
 1. Check the logs of the "Phlex" add-on to see if everything went well.
 1. Click "OPEN WEB UI" to open the Phlex website.
-1. When you connect you will be asked to login with your Plex account,
+1. When you connect you will be asked to log in with your Plex account,
   _you need to do that._
 
 **NOTE**: Starting the add-on might take a couple of minutes (especially the
