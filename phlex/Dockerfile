@@ -26,11 +26,16 @@ RUN \
     php7-zip=7.2.10-r0 \
     php7-simplexml=7.2.10-r0 \
     php7-xml=7.2.10-r0 \
-  && apk add --no-cache --virtual .build-dependencies \
-    git=2.18.0-r0 \
-  && git clone --depth=1 \
-    https://github.com/d8ahazard/Phlex /opt \
-  && apk del --purge .build-dependencies
+  \
+  && mkdir -p /opt \
+  \
+  && curl -J -L -o /tmp/web.zip \
+    "https://github.com/d8ahazard/Phlex/archive/8500344f6ff66bebd2518868579f39bb38161784.zip" \
+  \
+  && unzip -d /tmp /tmp/web.zip \
+  && mv /tmp/Phlex-*/* /opt \
+  \
+  && rm -fr /tmp/*
 
 # Copy root filesystem
 COPY rootfs /
