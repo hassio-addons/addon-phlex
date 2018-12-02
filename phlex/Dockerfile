@@ -12,7 +12,7 @@ WORKDIR /opt
 RUN \
   apk add --no-cache \
     apache2-utils=2.4.35-r0 \
-    nginx=1.14.0-r1 \
+    nginx=1.14.1-r1 \
     php7-curl=7.2.10-r0 \
     php7-fileinfo=7.2.10-r0 \
     php7-fpm=7.2.10-r0 \
