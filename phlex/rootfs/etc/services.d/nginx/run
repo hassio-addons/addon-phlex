@@ -9,5 +9,5 @@ source /usr/lib/hassio-addons/base.sh
 # Wait for PHP-FPM to become available
 s6-svwait -u -t 5000 /var/run/s6/services/php-fpm
 
-hass.log.info "Starting NGINX..."
+hass.log.info "Starting Phlex..."
 exec nginx -g "daemon off;"
