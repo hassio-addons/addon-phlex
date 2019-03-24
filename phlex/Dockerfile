@@ -13,7 +13,7 @@ RUN \
   apk add --no-cache \
     apache2-utils=2.4.38-r3 \
     nginx=1.14.2-r0 \
-    php7-curl=7.2.13-r0 \
+    php7-curl=7.2.14-r0 \
     php7-fileinfo=7.2.13-r0 \
     php7-fpm=7.2.13-r0 \
     php7-json=7.2.13-r0 \
