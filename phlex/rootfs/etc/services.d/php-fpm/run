@@ -3,7 +3,5 @@
 # Community Hass.io Add-ons: Phlex
 # Runs the PHP-FPM daemon
 # ==============================================================================
-# shellcheck disable=SC1091
-source /usr/lib/hassio-addons/base.sh
 
 exec php-fpm7 --nodaemonize
