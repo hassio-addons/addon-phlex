@@ -15,7 +15,7 @@ RUN \
     php7-curl=7.2.14-r0 \
     php7-fileinfo=7.2.14-r0 \
     php7-fpm=7.2.14-r0 \
-    php7-json=7.2.14-r0 \
+    php7-json=7.2.17-r0 \
     php7-opcache=7.2.14-r0 \
     php7-openssl=7.2.14-r0 \
     php7-phar=7.2.14-r0 \
