@@ -29,7 +29,7 @@ RUN \
   && mkdir -p /opt \
   \
   && curl -J -L -o /tmp/web.zip \
-    "https://github.com/d8ahazard/Phlex/archive/01fce9237e727deb69fc81da56cb77687e2ee2a8.zip" \
+    "https://github.com/d8ahazard/Phlex/archive/579fb03589c0244841f9561a032372bbf89da1f8.zip" \
   \
   && unzip -d /tmp /tmp/web.zip \
   && mv /tmp/Phlex-*/* /opt \
