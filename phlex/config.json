@@ -20,6 +20,9 @@
   "ports": {
     "1778/tcp": 1778
   },
+  "ports_description": {
+    "1778/tcp": "Phlex web interface"
+  },
   "map": [
     "ssl",
     "config"
