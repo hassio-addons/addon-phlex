@@ -5,7 +5,7 @@
 # ==============================================================================
 
 # Wait for PHP-FPM to become available
-bashio::wait_for 17276
+bashio::net.wait_for 17276
 
 bashio::log.info "Starting Phlex..."
 exec nginx -g "daemon off;"
