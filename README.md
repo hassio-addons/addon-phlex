@@ -74,8 +74,7 @@ Example add-on configuration:
   "log_level": "info",
   "ssl": true,
   "certfile": "fullchain.pem",
-  "keyfile": "privkey.pem",
-  "ipv6": false
+  "keyfile": "privkey.pem"
 }
 ```
 
@@ -115,10 +114,6 @@ The certificate file to use for SSL.
 The private key file to use for SSL.
 
 **Note**: _The file MUST be stored in `/ssl/`, which is the default for Hass.io_
-
-### Option: `ipv6`
-
-Set this option too `false` to disable IPv6 support.
 
 ## Embedding into Home Assistant
 

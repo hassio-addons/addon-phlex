@@ -20,10 +20,5 @@ if bashio::config.true 'ssl'; then
     sed -i "s/%%keyfile%%/${keyfile}/g" /etc/nginx/nginx.conf
 fi
 
-# Disables IPv6 in case its disabled by the user
-if ! bashio::config.true 'ipv6'; then
-    sed -i '/listen \[::\].*/ d' /etc/nginx/nginx.conf
-fi
-
 # Set premissions
 chown nginx:nginx -R /opt
