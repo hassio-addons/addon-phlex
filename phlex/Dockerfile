@@ -22,7 +22,7 @@ RUN \
     php7-session=7.2.17-r0 \
     php7-sockets=7.2.17-r0 \
     php7-sqlite3=7.2.17-r0 \
-    php7-zip=7.2.17-r0 \
+    php7-zip=7.2.18-r0 \
     php7-simplexml=7.2.17-r0 \
     php7-xml=7.2.17-r0 \
   \
