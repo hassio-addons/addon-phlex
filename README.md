@@ -1,4 +1,4 @@
-# Community Hass.io Add-ons: Phlex
+# Community Hass.io Add-ons: FlexTV
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
@@ -25,7 +25,7 @@ A super-sexy text and voice interface for Plex.
 
 ## About
 
-The purpose of [Phlex][phlex-wiki] is to provide a natural language interface
+The purpose of [FlexTV][flextv-wiki] is to provide a natural language interface
 for Home Theater applications - effectively bridging the current gap between
 commercial AI Solutions like Google Home and personal web applications like
 Plex.
@@ -40,17 +40,17 @@ comparison to installing any other Hass.io add-on.
 that have a look at their documentation [here.][cast-bundle-wiki]
 
 1. [Add our Hass.io add-ons repository][repository] to your Hass.io instance.
-1. Install the "Phlex" add-on.
-1. Start the "Phlex" add-on
-1. Check the logs of the "Phlex" add-on to see if everything went well.
-1. Click "OPEN WEB UI" to open the Phlex website.
+1. Install the "FlexTV" add-on.
+1. Start the "FlexTV" add-on
+1. Check the logs of the "FlexTV" add-on to see if everything went well.
+1. Click "OPEN WEB UI" to open the FlexTV website.
 1. When you connect you will be asked to log in with your Plex account,
   _you need to do that._
 
 **NOTE**: Starting the add-on might take a couple of minutes (especially the
 first time starting the add-on).
 
-**NOTE**: Phlex supports controlling it with voice (Google Home),
+**NOTE**: FlexTV supports controlling it with voice (Google Home),
 if you want to use that you will need to expose this add-on to the internet
 since the process of doing so vary from setup to setup,
 that part is out of the scope for the documentation of this add-on.
@@ -96,7 +96,7 @@ you are troubleshooting.
 
 ### Option: `ssl`
 
-Enables/Disables SSL (HTTPS) on the web interface of Phlex. Set it `true`
+Enables/Disables SSL (HTTPS) on the web interface of FlexTV. Set it `true`
 to enable it, `false` otherwise.
 
 ### Option: `certfile`
@@ -113,8 +113,8 @@ The private key file to use for SSL.
 
 ## Embedding into Home Assistant
 
-It is possible to embed Phlex directly into Home Assistant, allowing you to
-access your Phlex through the Home Assistant frontend.
+It is possible to embed FlexTV directly into Home Assistant, allowing you to
+access your FlexTV through the Home Assistant frontend.
 
 Home Assistant provides the `panel_iframe` component, for these purposes.
 
@@ -123,7 +123,7 @@ Example configuration:
 ```yaml
 panel_iframe:
   phlex:
-    title: Phlex
+    title: FlexTV
     icon: mdi:microphone
     url: http://addres.to.your.hass.io:1778
 ```
@@ -211,7 +211,7 @@ SOFTWARE.
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/ludeeus
-[cast-bundle-wiki]: https://github.com/d8ahazard/Phlex/wiki/Install-Cast-Plugin
+[cast-bundle-wiki]: https://github.com/d8ahazard/FlexTV/wiki/Install-Cast-Plugin
 [cast-bundle]: https://github.com/d8ahazard/Cast.bundle
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-phlex.svg
 [commits]: https://github.com/hassio-addons/addon-phlex/commits/master
@@ -232,7 +232,7 @@ SOFTWARE.
 [ludeeus]: https://github.com/ludeeus
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [microbadger]: https://microbadger.com/images/hassioaddons/phlex
-[phlex-wiki]: https://github.com/d8ahazard/Phlex/wiki
+[flextv-wiki]: https://github.com/d8ahazard/FlexTV/wiki
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-phlex.svg

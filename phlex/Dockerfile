@@ -29,10 +29,10 @@ RUN \
   && mkdir -p /opt \
   \
   && curl -J -L -o /tmp/web.zip \
-    "https://github.com/d8ahazard/Phlex/archive/579fb03589c0244841f9561a032372bbf89da1f8.zip" \
+    "https://github.com/d8ahazard/FlexTV/archive/247d30d6c6737e517862710188b302d6a72a673c.zip" \
   \
   && unzip -d /tmp /tmp/web.zip \
-  && mv /tmp/Phlex-*/* /opt \
+  && mv /tmp/FlexTV-*/* /opt \
   \
   && rm -fr /tmp/*
 
@@ -47,7 +47,7 @@ ARG BUILD_VERSION
 
 # Labels
 LABEL \
-    io.hass.name="Phlex" \
+    io.hass.name="FlexTV" \
     io.hass.description="A super-sexy text and voice interface for Plex" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
@@ -55,7 +55,7 @@ LABEL \
     maintainer="Joakim Sørensen @ludeeus <ludeeus@gmail.com>" \
     org.label-schema.description="A super-sexy text and voice interface for Plex" \
     org.label-schema.build-date=${BUILD_DATE} \
-    org.label-schema.name="Phlex" \
+    org.label-schema.name="FlexTV" \
     org.label-schema.schema-version="1.0" \
     org.label-schema.url="https://community.home-assistant.io/t/community-hass-io-add-ons-phlex/70378" \
     org.label-schema.usage="https://github.com/hassio-addons/addon-phlex/tree/master/README.md" \

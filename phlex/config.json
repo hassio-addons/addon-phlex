@@ -1,5 +1,5 @@
 {
-  "name": "Phlex",
+  "name": "FlexTV",
   "version": "dev",
   "slug": "phlex",
   "description": "A super-sexy text and voice interface for Plex",
@@ -20,7 +20,7 @@
     "1778/tcp": 1778
   },
   "ports_description": {
-    "1778/tcp": "Phlex web interface"
+    "1778/tcp": "FlexTV web interface"
   },
   "map": [
     "ssl",

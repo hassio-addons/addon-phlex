@@ -1,6 +1,6 @@
-#!/usr/bin/with-contenv bash
+#!/usr/bin/with-contenv bashio
 # ==============================================================================
-# Community Hass.io Add-ons: Phlex
+# Community Hass.io Add-ons: FlexTV
 # Runs the PHP-FPM daemon
 # ==============================================================================
 bashio::log.info "Starting PHP-FPM..."

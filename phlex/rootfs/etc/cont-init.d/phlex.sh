@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
-# Community Hass.io Add-ons: Phlex
-# Configures Phlex
+# Community Hass.io Add-ons: FlexTV
+# Configures FlexTV
 # ==============================================================================
 
 if ! bashio::fs.file_exists '/data/config.php'; then

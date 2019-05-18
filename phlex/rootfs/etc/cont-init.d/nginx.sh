@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
-# Community Hass.io Add-ons: Phlex
-# Configures NGINX for use with Phlex
+# Community Hass.io Add-ons: FlexTV
+# Configures NGINX for use with FlexTV
 # ==============================================================================
 declare certfile
 declare keyfile
