@@ -36,8 +36,7 @@ The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Hass.io add-on.
 
 **NOTE:** Before you install this add-on you need to install the
-[Cast.bundle][cast-bundle] Plug-in on your Plex server, to get started with
-that have a look at their documentation [here.][cast-bundle-wiki]
+[FlexTV.bundle][flextv-bundle] Plug-in on your Plex server.
 
 1. [Add our Hass.io add-ons repository][repository] to your Hass.io instance.
 1. Install the "FlexTV" add-on.
@@ -211,8 +210,6 @@ SOFTWARE.
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/ludeeus
-[cast-bundle-wiki]: https://github.com/d8ahazard/FlexTV/wiki/Install-Cast-Plugin
-[cast-bundle]: https://github.com/d8ahazard/Cast.bundle
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-phlex.svg
 [commits]: https://github.com/hassio-addons/addon-phlex/commits/master
 [contributors]: https://github.com/hassio-addons/addon-phlex/graphs/contributors
@@ -220,6 +217,8 @@ SOFTWARE.
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
 [dockerhub]: https://hub.docker.com/r/hassioaddons/phlex
+[flextv-bundle]: https://github.com/d8ahazard/FlexTV.bundle
+[flextv-wiki]: https://github.com/d8ahazard/FlexTV/wiki
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-ons-phlex/70378
 [gitlabci-shield]: https://gitlab.com/hassio-addons/addon-phlex/badges/master/pipeline.svg
@@ -232,7 +231,6 @@ SOFTWARE.
 [ludeeus]: https://github.com/ludeeus
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [microbadger]: https://microbadger.com/images/hassioaddons/phlex
-[flextv-wiki]: https://github.com/d8ahazard/FlexTV/wiki
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-phlex.svg

@@ -1,7 +1,7 @@
 {
   "name": "FlexTV",
   "version": "dev",
-  "slug": "phlex",
+  "slug": "flextv",
   "description": "A super-sexy text and voice interface for Plex",
   "url": "https://github.com/hassio-addons/addon-phlex/tree/master/README.md",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:1778]",
