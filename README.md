@@ -115,7 +115,7 @@ The private key file to use for SSL.
 It is possible to embed FlexTV directly into Home Assistant, allowing you to
 access your FlexTV through the Home Assistant frontend.
 
-Home Assistant provides the `panel_iframe` component, for these purposes.
+Home Assistant provides the `panel_iframe` integration, for these purposes.
 
 Example configuration:
 
