@@ -184,7 +184,7 @@ our [GitHub Repository][repository].
 
 MIT License
 
-Copyright (c) 2018-2019 Joakim Sørensen
+Copyright (c) 2018-2020 Joakim Sørensen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -229,7 +229,7 @@ SOFTWARE.
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-phlex.svg
 [ludeeus]: https://github.com/ludeeus
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [microbadger]: https://microbadger.com/images/hassioaddons/phlex
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
