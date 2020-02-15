@@ -64,13 +64,11 @@ that part is out of the scope for the documentation of this add-on.
 
 Example add-on configuration:
 
-```json
-{
-  "log_level": "info",
-  "ssl": true,
-  "certfile": "fullchain.pem",
-  "keyfile": "privkey.pem"
-}
+```yaml
+log_level: info
+ssl: true
+certfile: fullchain.pem
+keyfile: privkey.pem
 ```
 
 **Note**: _This is just an example, don't copy and past it! Create your own!_
