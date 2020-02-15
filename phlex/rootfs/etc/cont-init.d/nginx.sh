@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
-# Community Hass.io Add-ons: FlexTV
+# Home Assistant Community Add-on: FlexTV
 # Configures NGINX for use with FlexTV
 # ==============================================================================
 declare certfile

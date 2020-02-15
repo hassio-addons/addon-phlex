@@ -1,8 +1,8 @@
 ---
 repository:
-  description: "FlexTV - Community Hass.io Add-on for Home Assistant"
+  description: "FlexTV - Home Assistant Community Add-ons"
   homepage: https://addons.community
-  topics: phlex, morror, hassio-addons, hassio, hass, home-assistant, homeassistant
+  topics: phlex, morror, addon, addons, home-assistant, homeassistant
   private: false
   has_issues: true
   has_projects: false
