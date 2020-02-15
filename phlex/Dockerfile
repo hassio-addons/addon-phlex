@@ -11,7 +11,7 @@ WORKDIR /opt
 # Setup base
 RUN \
   apk add --no-cache \
-    nginx=1.14.2-r1 \
+    nginx=1.16.1-r6 \
     php7-curl=7.3.14-r0 \
     php7-fileinfo=7.3.14-r0 \
     php7-fpm=7.3.14-r0 \
