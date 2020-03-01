@@ -56,9 +56,6 @@ since the process of doing so vary from setup to setup,
 that part is out of the scope for the documentation of this add-on.
 **You should only pursue this if you really know what you are doing.**
 
-**NOTE**: Do not add this repository to Hass.io, please use:
-`https://github.com/hassio-addons/repository`.
-
 ## Configuration
 
 **Note**: _Remember to restart the add-on when the configuration is changed._
@@ -123,7 +120,7 @@ panel_iframe:
   phlex:
     title: FlexTV
     icon: mdi:microphone
-    url: http://addres.to.your.hass.io:1778
+    url: http://addres.to.your.home.assistant:1778
 ```
 
 ## Changelog & Releases
@@ -219,7 +216,7 @@ SOFTWARE.
 [flextv-bundle]: https://github.com/d8ahazard/FlexTV.bundle
 [flextv-wiki]: https://github.com/d8ahazard/FlexTV/wiki
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/community-hass-io-add-ons-phlex/70378
+[forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-flextv/70378?u=frenck
 [gitlabci-shield]: https://gitlab.com/hassio-addons/addon-phlex/badges/master/pipeline.svg
 [gitlabci]: https://gitlab.com/hassio-addons/addon-phlex/pipelines
 [home-assistant]: https://home-assistant.io
