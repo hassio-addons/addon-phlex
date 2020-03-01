@@ -12,19 +12,19 @@ WORKDIR /opt
 RUN \
   apk add --no-cache \
     nginx=1.16.1-r6 \
-    php7-curl=7.3.14-r0 \
-    php7-fileinfo=7.3.14-r0 \
-    php7-fpm=7.3.14-r0 \
-    php7-json=7.3.14-r0 \
-    php7-opcache=7.3.14-r0 \
-    php7-openssl=7.3.14-r0 \
-    php7-phar=7.3.14-r0 \
-    php7-session=7.3.14-r0 \
-    php7-sockets=7.3.14-r0 \
-    php7-sqlite3=7.3.14-r0 \
-    php7-zip=7.3.14-r0 \
-    php7-simplexml=7.3.14-r0 \
-    php7-xml=7.3.14-r0 \
+    php7-curl=7.3.15-r0 \
+    php7-fileinfo=7.3.15-r0 \
+    php7-fpm=7.3.15-r0 \
+    php7-json=7.3.15-r0 \
+    php7-opcache=7.3.15-r0 \
+    php7-openssl=7.3.15-r0 \
+    php7-phar=7.3.15-r0 \
+    php7-session=7.3.15-r0 \
+    php7-sockets=7.3.15-r0 \
+    php7-sqlite3=7.3.15-r0 \
+    php7-zip=7.3.15-r0 \
+    php7-simplexml=7.3.15-r0 \
+    php7-xml=7.3.15-r0 \
   \
   && mkdir -p /opt \
   \
