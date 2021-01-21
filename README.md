@@ -23,6 +23,17 @@ A super-sexy text and voice interface for Plex.
 
 ![Screenshot][screenshot]
 
+## Deprecation warning
+
+**This add-on is in a deprecated state!**
+
+Upstream Phlex/FlexTV development seem to be halted, and this add-on
+is not in a working state.
+
+For that reason investing more time and energy in this add-on seems pointless
+at this point. Therefore this add-on will no longer receive any updates and is
+deprecated.
+
 ## About
 
 The purpose of [FlexTV][flextv-wiki] is to provide a natural language interface
